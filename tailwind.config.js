@@ -10,9 +10,8 @@ module.exports = {
                 'primary': '#fcee57',
                 'secondary': '#353535'
             },
-            margin: {
-                '96': '24rem',
-                '128': '32rem',
+            height: {
+                '80': "20rem",
             },
         }
     },

@@ -18,31 +18,95 @@
         <div class="text-5xl pr-5">&equiv;</div>
     </header>
 
+    <!-- Main -->
+    <main>
+        <div class="h-56 md:h-80 bg-no-repeat bg-cover bg-center mb-8" style="background-image: url('https://images.unsplash.com/photo-1576433477363-1a2a80cf9f60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');"></div>
+
+        <div class="container md:mx-auto md:flex">
+            <!-- Card -->
+            <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg">
+                <div>
+                    <img class="rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=60" alt="Hamburguesa">
+                </div>
+                <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5">
+                    <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800">Hamburguesa Clásica</h2>
+                    <p class="text-gray-700 leading-snug">Carne 100% de res, queso, lechuga, jitomate, salsa especial y pan con ajonjolí.</p>
+                    <div class="text-sm font-semibold text-gray-700 mt-2">MXN$ 75.00</div>
+                    <div class="text-xs my-2 flex md:flex-col justify-between">
+                        <div>
+                            <span class="text-yellow-600">&starf;&starf;&starf;&starf;&star;</span>
+                            <span class="text-gray-700">| 36 reseñas</span>
+                        </div>
+                        <div class="md:mt-4">
+                            <span class="text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer hover:bg-yellow-600 hover:text-white">Ordenar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg">
+                <div>
+                    <img class="rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1585703900468-13c7a978ad86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="Hamburguesa">
+                </div>
+                <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5">
+                    <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800">Alitas</h2>
+                    <p class="text-gray-700 leading-snug">Orden de 10 alitas de pollo fritas con salsa a tu elección. <br> Tamarindo | BBQ | Cajún</p>
+                    <div class="text-sm font-semibold text-gray-700 mt-2">MXN$ 81.90</div>
+                    <div class="text-xs my-2 flex md:flex-col justify-between">
+                        <div>
+                            <span class="text-yellow-600">&starf;&starf;&starf;&starf;&starf;</span>
+                            <span class="text-gray-700">| 41 reseñas</span>
+                        </div>
+                        <div class="md:mt-4">
+                            <span class="text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer hover:bg-yellow-600 hover:text-white">Ordenar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Forms -->
+
+
     <!-- Footer -->
-    <footer class="absolute bottom-0 w-full bg-primary">
-        <div class="md:flex md:justify-around">
-            <div class="mt-4 ml-8">
+    <footer class="mt-12 pt-2 w-full bg-primary">
+        <div>
+
+            <div class="mt-4 ml-8 md:flex md:justify-center">
                 <div class="cursor-pointer">
-                    <img class="h-8 inline-block mr-2" src="images/logos/facebook.svg" alt="">
-                    <span class="hover:bg-yellow-500 p-1">/burguershakes</span>
+                    <img class="h-8 inline-block mr-1" src="images/logos/facebook.svg" alt="">
+                    <span class="hover:bg-yellow-500 p-1 mr-20">/burguershakes</span>
                 </div>
                 <div class="cursor-pointer">
-                    <img class="h-8 inline-block mr-2" src="images/logos/twitter.svg" alt="">
-                    <span class="hover:bg-yellow-500 p-1">@burguershakes</span>
+                    <img class="h-8 inline-block mr-1" src="images/logos/twitter.svg" alt="">
+                    <span class="hover:bg-yellow-500 p-1 mr-20">@burguershakes</span>
                 </div>
                 <div class="cursor-pointer">
-                    <img class="h-8 inline-block mr-2" src="images/logos/instagram.svg" alt="">
+                    <img class="h-8 inline-block mr-1" src="images/logos/instagram.svg" alt="">
                     <span class="hover:bg-yellow-500 p-1">burguershakes</span>
                 </div>
             </div>
 
-            <div class="my-4 mr-8 text-right md:text-left">
-                <ul class="md:list-disc">
-                    <li><a class="hover:bg-yellow-500 p-1" href="#">Soporte</a></li>
-                    <li><a class="hover:bg-yellow-500 p-1" href="#">Acerca de</a></li>
-                    <li><a class="hover:bg-yellow-500 p-1" href="#">Registro</a></li>
-                    <li><a class="hover:bg-yellow-500 p-1" href="#">Aviso de Privacidad</a></li>
-                </ul>
+            <div class="py-4 mr-8 text-right md:text-left md:flex md:justify-center">
+                <div>
+                    <span class="hidden md:inline">· </span>
+                    <a class="hover:bg-yellow-500 p-1" href="#">Soporte</a>
+                    <span class="hidden md:inline"> ·</span>
+                </div>
+                <div>
+                    <a class="hover:bg-yellow-500 p-1" href="#"> Acerca de</a>
+                    <span class="hidden md:inline"> ·</span>
+                </div>
+                <div>
+                    <a class="hover:bg-yellow-500 p-1" href="#"> Registro</a>
+                    <span class="hidden md:inline"> ·</span>
+                </div>
+                <div>
+                    <a class="hover:bg-yellow-500 p-1" href="#"> Aviso de Privacidad</a>
+                    <span class="hidden md:inline"> ·</span>
+                </div>
             </div>
         </div>
     </footer>
