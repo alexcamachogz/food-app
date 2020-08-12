@@ -68,10 +68,28 @@
     </main>
 
     <!-- Forms -->
+    <div class="container md:w-1/2 mt-10 md:mx-auto md:shadow-lg p-10 md:rounded-lg">
+        <h1 class="mb-5 text-3xl leading-loose uppercase text-center">Contáctanos</h1>
 
+        <div>
+            <label for="name">Nombre</label>
+            <input class="border-2 border-solid border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 py-2 px-4 text-secondary leading-snug w-full" type="text" name="name" id="name" placeholder="John Doe">
+        </div>
+        <div class="mt-4">
+            <label for="email">Email</label>
+            <input class="border-2 border-solid border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 py-2 px-4 text-secondary leading-snug w-full" type="text" name="email" id="email" placeholder="john.doe@mail.com">
+        </div>
+        <div class="mt-4">
+            <label for="comentarios">Comentarios</label>
+            <textarea class="border-2 border-solid border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 py-2 px-4 text-secondary leading-snug w-full" name="comentarios" id="comentarios" cols="30" max-rows="5" placeholder="Hello, I..."></textarea>
+        </div>
+        <div class="mt-4">
+            <button class="block mx-auto bg-primary px-4 py-2 rounded-lg shadow-lg text-gray-700 hover:shadow-none hover:bg-yellow-600 hover:text-white">Enviar</button>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <footer class="mt-12 pt-2 w-full bg-primary">
+    <footer class="mt-8 pt-2 w-full bg-primary">
         <div>
 
             <div class="mt-4 ml-8 md:flex md:justify-center">
