@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 /* componentes */
+
+.header {
+    @apply bg-secondary text-white grid grid-rows-1 grid-cols-2;
+}
 
 .form-control {
     @apply border-2 border-solid border-gray-300 rounded-lg py-2 px-4 leading-snug w-full text-secondary;
@@ -19,4 +24,26 @@
     @apply shadow-none bg-yellow-600 text-white;
 }
 
-@tailwind utilities;
+.btn-ordenar {
+    @apply text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer;
+}
+
+.btn-ordenar:hover {
+    @apply bg-yellow-600 text-white;
+}
+
+.card-container {
+    @apply mx-2 mt-4 w-1/2 rounded-lg;
+}
+
+.card-content {
+    @apply relative mx-2 shadow-xl p-2 bg-white rounded-lg -mt-4;
+}
+
+.card-title {
+    @apply text-2xl uppercase tracking-tight font-semibold text-gray-800;
+}
+
+.card-footer {
+    @apply text-xs my-2 flex justify-between;
+}

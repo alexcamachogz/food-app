@@ -12,7 +12,7 @@
 <body>
 
     <!-- Header -->
-    <header class="bg-secondary text-white grid grid-rows-1 grid-cols-2 md:grid-rows-2 md:grid-cols-5">
+    <header class="header md:grid-rows-2 md:grid-cols-5">
         <div class="row-span-2">
             <img src="images/logo-food-2x.png" alt="Logo del sitio">
         </div>
@@ -43,42 +43,42 @@
 
         <div class="container md:mx-auto md:flex ">
             <!-- Card -->
-            <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
+            <div class="card-container md:flex md:items-center md:bg-white md:shadow-xl">
                 <div>
                     <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=60 " alt="Hamburguesa ">
                 </div>
-                <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
-                    <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Hamburguesa Clásica</h2>
+                <div class="card-content md:w-full md:shadow-none md:p-2 md:bg-transparent md:pt-5">
+                    <h2 class="card-title md:text-lg">Hamburguesa Clásica</h2>
                     <p class="text-gray-700 leading-snug ">Carne 100% de res, queso, lechuga, jitomate, salsa especial y pan con ajonjolí.</p>
                     <div class="text-sm font-semibold text-gray-700 mt-2 ">MXN$ 75.00</div>
-                    <div class="text-xs my-2 flex md:flex-col justify-between ">
+                    <div class="card-footer md:flex-col">
                         <div>
                             <span class="text-yellow-600 ">&starf;&starf;&starf;&starf;&star;</span>
                             <span class="text-gray-700 ">| 36 reseñas</span>
                         </div>
                         <div class="md:mt-4 ">
-                            <span class="text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer hover:bg-yellow-600 hover:text-white ">Ordenar</span>
+                            <span class="btn-ordenar">Ordenar</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card -->
-            <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
+            <div class="card-container md:flex md:items-center md:bg-white md:shadow-xl">
                 <div>
                     <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1585703900468-13c7a978ad86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Alitas">
                 </div>
-                <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
-                    <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Alitas</h2>
+                <div class="card-content md:w-full md:shadow-none md:p-2 md:bg-transparent md:pt-5">
+                    <h2 class="card-title md:text-lg">Alitas</h2>
                     <p class="text-gray-700 leading-snug ">Orden de 10 alitas de pollo fritas con salsa a tu elección. <br> Tamarindo | BBQ | Cajún</p>
                     <div class="text-sm font-semibold text-gray-700 mt-2 ">MXN$ 81.90</div>
-                    <div class="text-xs my-2 flex md:flex-col justify-between ">
+                    <div class="card-footer md:flex-col">
                         <div>
                             <span class="text-yellow-600 ">&starf;&starf;&starf;&starf;&starf;</span>
                             <span class="text-gray-700 ">| 41 reseñas</span>
                         </div>
                         <div class="md:mt-4 ">
-                            <span class="text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer hover:bg-yellow-600 hover:text-white ">Ordenar</span>
+                            <span class="btn-ordenar">Ordenar</span>
                         </div>
                     </div>
                 </div>
@@ -87,42 +87,42 @@
 
         <div class="container md:mx-auto md:flex ">
             <!-- Card -->
-            <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
+            <div class="card-container md:flex md:items-center md:bg-white md:shadow-xl">
                 <div>
                     <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Malteada de Oreo">
                 </div>
-                <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
-                    <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Malteada de Oreo</h2>
+                <div class="card-content md:w-full md:shadow-none md:p-2 md:bg-transparent md:pt-5">
+                    <h2 class="card-title md:text-lg">Malteada de Oreo</h2>
                     <p class="text-gray-700 leading-snug ">Malteada de galletas oreo con leche de tu elección, decorada con galletas y crema batida.</p>
                     <div class="text-sm font-semibold text-gray-700 mt-2 ">MXN$ 55.00</div>
-                    <div class="text-xs my-2 flex md:flex-col justify-between ">
+                    <div class="card-footer md:flex-col">
                         <div>
                             <span class="text-yellow-600 ">&starf;&starf;&starf;&starf;&starf;</span>
                             <span class="text-gray-700 ">| 36 reseñas</span>
                         </div>
                         <div class="md:mt-4 ">
-                            <span class="text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer hover:bg-yellow-600 hover:text-white ">Ordenar</span>
+                            <span class="btn-ordenar">Ordenar</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Card -->
-            <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
+            <div class="card-container md:flex md:items-center md:bg-white md:shadow-xl">
                 <div>
                     <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Papas a la francesa">
                 </div>
-                <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
-                    <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Papas a la francesa</h2>
+                <div class="card-content md:w-full md:shadow-none md:p-2 md:bg-transparent md:pt-5">
+                    <h2 class="card-title md:text-lg">Papas a la francesa</h2>
                     <p class="text-gray-700 leading-snug ">Orden de papas a la francesa con nuestro sasonador especial.</p>
                     <div class="text-sm font-semibold text-gray-700 mt-2 ">MXN$ 40.00</div>
-                    <div class="text-xs my-2 flex md:flex-col justify-between ">
+                    <div class="card-footer md:flex-col">
                         <div>
                             <span class="text-yellow-600 ">&starf;&starf;&starf;&star;&star;</span>
                             <span class="text-gray-700 ">| 41 reseñas</span>
                         </div>
                         <div class="md:mt-4 ">
-                            <span class="text-xs text-right text-gray-700 bg-primary rounded-lg py-2 px-4 cursor-pointer hover:bg-yellow-600 hover:text-white ">Ordenar</span>
+                            <span class="btn-ordenar">Ordenar</span>
                         </div>
                     </div>
                 </div>
