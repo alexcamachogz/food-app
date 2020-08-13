@@ -16,11 +16,14 @@
         <div class="row-span-2">
             <img src="images/logo-food-2x.png" alt="Logo del sitio">
         </div>
-        <div class="text-5xl text-right pr-5 md:hidden">&equiv;</div>
-        <div class="hidden md:block row-start-1 row-end-2 col-start-5 pr-5">
+
+        <div class="text-5xl text-right pr-5 md:hidden" @click="open = true">&equiv;</div>
+
+
+        <div class="hidden md:block row-start-1 col-start-5 pr-5">
             <input class="form-control bg-transparent text-gray-100 h-8 mr-5 mt-4" type="search" name="search" id="search" placeholder="&#9903; Search">
         </div>
-        <div class="hidden md:block row-start-2 row-end-3 col-start-5 mt-2">
+        <div class="hidden md:block row-start-2 col-start-5 mt-2">
             <div class="flex justify-center">
                 Filtrar por:
                 <div class="ml-2 cursor-pointer">$</div>
@@ -28,6 +31,7 @@
                 <div class="ml-2 cursor-pointer">$$$</div>
                 <div class="ml-2 cursor-pointer mr-5">$$$$</div>
             </div>
+
         </div>
     </header>
 
