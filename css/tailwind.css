@@ -33,7 +33,7 @@
 }
 
 .card-container {
-    @apply mx-2 mt-4 w-1/2 rounded-lg;
+    @apply mx-2 mt-4 rounded-lg;
 }
 
 .card-content {
