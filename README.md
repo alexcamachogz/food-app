@@ -11,5 +11,14 @@ $ npm install
 ```
 
 ## 🎨 Preview
+🖥 Desktop version
+![](public/images/preview/Desktop.jpg.)
 
-![](public/images/preview/Desktop.jpg)
+📱 Mobile version
+![](public/images/preview/Mobile.jpg.)
+
+## 👩🏻‍💻 Technologies
+1. HTML
+2. CSS
+3. PostCSS
+4. Tailwind CSS
