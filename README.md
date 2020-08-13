@@ -11,11 +11,20 @@ $ npm install
 ```
 
 ## 🎨 Preview
-🖥 Desktop version
+
+<details>
+    <summary>🖥 Desktop version</summary>
+    
 ![](public/images/preview/Desktop.jpg)
 
-📱 Mobile version
+</details>
+
+<details>
+    <summary>📱 Mobile version</summary>
+    
 ![](public/images/preview/Mobile.jpg)
+
+</details>
 
 ## 👩🏻‍💻 Technologies
 1. HTML
