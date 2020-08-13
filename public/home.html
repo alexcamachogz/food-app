@@ -4,18 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
+    <title>Burguers & Shakes</title>
+    <link rel="shortcut icon" href="images/food.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <!-- Header -->
-    <header class="bg-secondary text-white flex justify-between items-center">
-        <div>
-            <img src="images/logo-food-2x.png" alt="">
+    <header class="bg-secondary text-white grid grid-rows-1 grid-cols-2 md:grid-rows-2 md:grid-cols-5">
+        <div class="row-span-2">
+            <img src="images/logo-food-2x.png" alt="Logo del sitio">
         </div>
-        <div class="text-5xl pr-5">&equiv;</div>
+        <div class="text-5xl text-right pr-5 md:hidden">&equiv;</div>
+        <div class="hidden md:block row-start-1 row-end-2 col-start-5 pr-5">
+            <input class="form-control bg-transparent text-gray-100 h-8 mr-5 mt-4" type="search" name="search" id="search" placeholder="&#9903; Search">
+        </div>
+        <div class="hidden md:block row-start-2 row-end-3 col-start-5 mt-2">
+            <div class="flex justify-center">
+                Filtrar por:
+                <div class="ml-2 cursor-pointer">$</div>
+                <div class="ml-2 cursor-pointer text-primary">$$</div>
+                <div class="ml-2 cursor-pointer">$$$</div>
+                <div class="ml-2 cursor-pointer mr-5">$$$$</div>
+            </div>
+        </div>
     </header>
 
     <!-- Main -->
@@ -53,7 +66,7 @@
             <!-- Card -->
             <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
                 <div>
-                    <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1585703900468-13c7a978ad86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Hamburguesa ">
+                    <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1585703900468-13c7a978ad86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Alitas">
                 </div>
                 <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
                     <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Alitas</h2>
@@ -76,7 +89,7 @@
             <!-- Card -->
             <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
                 <div>
-                    <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Hamburguesa ">
+                    <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Malteada de Oreo">
                 </div>
                 <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
                     <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Malteada de Oreo</h2>
@@ -97,7 +110,7 @@
             <!-- Card -->
             <div class="mx-2 mt-4 sm:w-1/2 md:flex md:items-center md:bg-white md:shadow-xl rounded-lg ">
                 <div>
-                    <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Hamburguesa ">
+                    <img class="rounded-lg md:rounded-r-none " src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80 " alt="Papas a la francesa">
                 </div>
                 <div class="md:w-full relative mx-2 shadow-xl md:shadow-none md:p-2 p-2 bg-white md:bg-transparent rounded-lg -mt-4 md:pt-5 ">
                     <h2 class="text-2xl md:text-lg uppercase tracking-tight font-semibold text-gray-800 ">Papas a la francesa</h2>
@@ -105,7 +118,7 @@
                     <div class="text-sm font-semibold text-gray-700 mt-2 ">MXN$ 40.00</div>
                     <div class="text-xs my-2 flex md:flex-col justify-between ">
                         <div>
-                            <span class="text-yellow-600 ">&starf;&starf;&starf;&starf;&starf;</span>
+                            <span class="text-yellow-600 ">&starf;&starf;&starf;&star;&star;</span>
                             <span class="text-gray-700 ">| 41 reseñas</span>
                         </div>
                         <div class="md:mt-4 ">
@@ -123,19 +136,18 @@
 
         <div>
             <label for="name ">Nombre</label>
-            <input class="border-2 border-solid border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 py-2 px-4 text-secondary leading-snug w-full " type="text " name="name " id="name " placeholder="John Doe ">
+            <input class="form-control" type="text " name="name " id="name " placeholder="John Doe ">
         </div>
         <div class="mt-4 ">
             <label for="email ">Email</label>
-            <input class="border-2 border-solid border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 py-2 px-4 text-secondary leading-snug w-full " type="text " name="email " id="email " placeholder="john.doe@mail.com ">
+            <input class="form-control" type="text " name="email " id="email " placeholder="john.doe@mail.com ">
         </div>
         <div class="mt-4 ">
             <label for="comentarios ">Comentarios</label>
-            <textarea class="border-2 border-solid border-gray-300 rounded-lg focus:outline-none focus:border-gray-500 py-2 px-4 text-secondary leading-snug w-full " name="comentarios " id="comentarios " cols="30 " max-rows="5 " placeholder="Hello,
-                    I... "></textarea>
+            <textarea class="form-control" name="comentarios " id="comentarios " cols="30 " max-rows="5 " placeholder="Hello, I... "></textarea>
         </div>
         <div class="mt-4 ">
-            <button class="block mx-auto bg-primary px-4 py-2 rounded-lg shadow-lg text-gray-700 hover:shadow-none hover:bg-yellow-600 hover:text-white ">Enviar</button>
+            <button class="btn">Enviar</button>
         </div>
     </div>
 
@@ -145,15 +157,15 @@
 
             <div class="mt-4 ml-8 md:flex md:justify-center ">
                 <div class="cursor-pointer ">
-                    <img class="h-8 inline-block mr-1 " src="images/logos/facebook.svg " alt=" ">
+                    <img class="h-8 inline-block mr-1 " src="images/logos/facebook.svg " alt="Facebook">
                     <span class="hover:bg-yellow-500 p-1 mr-20 ">/burguershakes</span>
                 </div>
                 <div class="cursor-pointer ">
-                    <img class="h-8 inline-block mr-1 " src="images/logos/twitter.svg " alt=" ">
+                    <img class="h-8 inline-block mr-1 " src="images/logos/twitter.svg " alt="Twitter">
                     <span class="hover:bg-yellow-500 p-1 mr-20 ">@burguershakes</span>
                 </div>
                 <div class="cursor-pointer ">
-                    <img class="h-8 inline-block mr-1 " src="images/logos/instagram.svg " alt=" ">
+                    <img class="h-8 inline-block mr-1 " src="images/logos/instagram.svg " alt="Instagram">
                     <span class="hover:bg-yellow-500 p-1 ">burguershakes</span>
                 </div>
             </div>
