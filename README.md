@@ -11,6 +11,7 @@ $ npm install
 ```
 
 ## 🎨 Preview
+You can see the result here → [Food-app](https://alexcamachogz.github.io/food-app/)
 
 <details>
     <summary>🖥 Desktop version</summary>
